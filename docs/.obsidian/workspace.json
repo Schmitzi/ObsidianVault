@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a3aa238fc038931d",
+        "id": "8bbe30f2eec1aa94",
         "type": "tabs",
         "children": [
           {
-            "id": "0672c273e63463aa",
+            "id": "e7277d12fc992df9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md.md",
+                "file": "ft_linux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home.md"
+              "title": "ft_linux"
             }
           }
         ]
@@ -178,18 +178,53 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "0672c273e63463aa",
+  "active": "1ad448d3cd6e078e",
   "lastOpenFiles": [
-    "MLBootCamp/src/00/exercise-01.md",
-    "Home.md.md",
-    "MLBootCamp/src/installing-packages.md",
+    "ft_linux/Creating_the_Build_ Environment.md",
+    "ft_linux/Creating.md",
+    "ft_linux.md",
+    "ft_linux/Creating the Build Environment.md",
+    "ft_linux/Disk Partitioning.md",
+    "ft_linux/Introduction.md",
+    "MLBootCamp.md",
+    "ft_linux/imgs/binverif.png",
+    "Untitled.md",
+    "ft_linux/imgs/sshd.png",
+    "ft_linux/imgs/swap.png",
+    "ft_linux/imgs/passwd.png",
+    "ft_linux/imgs/partitions.png",
+    "ft_linux/imgs/login.png",
+    "ft_linux/imgs/initial.png",
+    "ft_linux/imgs/hostmachine.png",
+    "ft_linux/imgs/fdiskhelp.png",
+    "ft_linux/imgs/export.png",
+    "ft_linux/imgs",
+    "ft_linux/Creating the Build Environment..md",
+    "ft_linux",
+    "Untitled.base",
+    "2026-06-30.md",
+    "MLBootCamp/04/Exercise 01 - YoungestFellah.md",
+    "MLBootCamp/02/Exercise 01 - args and kwargs?.md",
+    "MLBootCamp/04/Exercise 07 - Komparator.md",
+    "MLBootCamp/04/Exercise 06 - MyPlotLib.md",
+    "MLBootCamp/04/Exercise 05 - HowManyMedalsByCountry.md",
+    "MLBootCamp/04/Exercise 04 - SpatioTemporalData.md",
+    "MLBootCamp/04/Exercise 03 - HowManyMedals.md",
+    "MLBootCamp/04/Exercise 02 - ProportionBySport.md",
+    "MLBootCamp/04/Exercise 00 - FileLoader.md",
+    "MLBootCamp/03/Exercise 03 - ColourFilter.md",
+    "MLBootCamp/03/Exercise 02 - ScrapBooker.md",
+    "MLBootCamp/03/Exercise 01 - ImageProcessor.md",
+    "MLBootCamp/03/Exercise 00 - NumPyCreator.md",
+    "MLBootCamp/02/Exercise 05 - TinyStatistician.md",
+    "MLBootCamp/02/Exercise 04 - MiniPack.md",
+    "MLBootCamp/02/Exercise 03 - CsvReader (Context Manager).md",
     "Untitled.canvas",
-    "MLBootCamp/src",
-    "BootCamp/SUMMARY.md",
-    "MLBootCamp/src/03/Exercise 04 - K-Means Clustering.md",
-    "MLBootCamp/src/math_and_stuff.md"
+    "MLBootCamp/src"
   ]
 }
