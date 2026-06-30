@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "81499500d40e53c2",
+        "id": "a3aa238fc038931d",
         "type": "tabs",
         "children": [
           {
-            "id": "0409743eb8803e8f",
+            "id": "0672c273e63463aa",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -70,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,11 +174,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f0fdc689a64d3a3e",
+  "active": "1ad448d3cd6e078e",
   "lastOpenFiles": [
-    "BootCamp/Home.md.md"
+    "Untitled.canvas",
+    "BootCamp/03/Exercise 04 - K-Means Clustering.md",
+    "BootCamp/Home.md.md",
+    "BootCamp/math_and_stuff.md"
   ]
 }

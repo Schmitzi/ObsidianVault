@@ -1,18 +1,16 @@
-# Exercise 04 - K-Means Clustering
-
 K-Means Clustering is the process of grouping similar data points into 
 clusters without needing labeled data. It is used to uncover hidden 
-patterns when the goal is to organise data based on similarity.
+patterns when the goal is to organised data based on similarity.
 
 - Helps identify natural groupings in unlabeled datasets
 - Works by grouping points based on distance to cluster centers
 - Commonly used in customer segmentation, image compression and pattern discovery
-- Useful when you need structure from raw, unorganised data
+- Useful when you need structure from raw, unorganized data
 
 ## How K-Means Works
 
 Suppose we have a dataset of items with certain features represented as 
-vectors. The task is to categorise those items into `k` groups or clusters 
+vectors. The task is to categorize those items into `k` groups or clusters 
 of similarity.
 
 ### The Algorithm
