@@ -11,10 +11,14 @@
             "id": "0672c273e63463aa",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Home.md.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Home.md"
             }
           }
         ]
@@ -174,15 +178,18 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "bases:Create new base": false
     }
   },
-  "active": "1ad448d3cd6e078e",
+  "active": "0672c273e63463aa",
   "lastOpenFiles": [
+    "MLBootCamp/src/00/exercise-01.md",
+    "Home.md.md",
+    "MLBootCamp/src/installing-packages.md",
     "Untitled.canvas",
-    "BootCamp/03/Exercise 04 - K-Means Clustering.md",
-    "BootCamp/Home.md.md",
-    "BootCamp/math_and_stuff.md"
+    "MLBootCamp/src",
+    "BootCamp/SUMMARY.md",
+    "MLBootCamp/src/03/Exercise 04 - K-Means Clustering.md",
+    "MLBootCamp/src/math_and_stuff.md"
   ]
 }
