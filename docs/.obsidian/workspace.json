@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ft_linux/Next Round of Installs.md",
+                "file": "ft_linux/UTF8 Symbols.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Next Round of Installs"
+              "title": "UTF8 Symbols"
             }
           },
           {
@@ -214,8 +214,9 @@
   },
   "active": "67da8989cd12c206",
   "lastOpenFiles": [
-    "ft_linux.md",
     "ft_linux/Next Round of Installs.md",
+    "ft_linux/UTF8 Symbols.md",
+    "ft_linux.md",
     "ft_linux/Building the Packages.md",
     "ft_linux/Setting the LFS Environment.md",
     "ft_linux/Disk.md",
@@ -252,7 +253,6 @@
     "MLBootCamp/03/Exercise 03 - ColourFilter.md",
     "MLBootCamp/03/Exercise 02 - ScrapBooker.md",
     "MLBootCamp/03/Exercise 01 - ImageProcessor.md",
-    "MLBootCamp/03/Exercise 00 - NumPyCreator.md",
     "Untitled.canvas",
     "MLBootCamp/src"
   ]
