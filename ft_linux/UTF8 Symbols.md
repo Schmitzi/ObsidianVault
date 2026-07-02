@@ -52,6 +52,7 @@ There's no single "hat" codepoint for arbitrary letters — instead you combine 
 **Italic Latin uppercase**
 
 - 𝐴 U+1D434 through 𝑍 U+1D44D — sequential, so 𝐴=1D434, 𝐵=1D435, 𝐶=1D436... straight through to 𝑍=1D44D. 
+- 𝐽 = U+1D43D
 - 𝑋 = U+1D44B
 - 𝑌 = U+1D44C
 - 𝑁 = U+1D441 
