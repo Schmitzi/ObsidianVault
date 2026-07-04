@@ -39,7 +39,48 @@ This method ensures that the best line represents the data where the sum of the 
 
 ### 7. Interpolation of the Best-Fit Line
 
-- *Slope (m)*: The slope indicates how much the dependent variable changes for every one-unit increase in the independent variable. For example, if the slope is 5, then y increases by 5 units for every 1-unit increase in x.
+- _Slope (m)_: The slope indicates how much the dependent variable changes for every one-unit increase in the independent variable. For example, if the slope is 5, then y increases by 5 units for every 1-unit increase in x.
+    
+- _Intercept (b)_: The intercept represents the predicted value of y when x = 0. It's the point where the line crosses the y-axis.
+    
 
-- *Intercept (b)*: The intercept represents the predicted value of y when x = 0. It’s the point where the line crosses the y-axis.
+## Implementation
 
+The loss is split into two functions — `loss_elem_` computes the squared error for each example individually, and `loss_` averages them into a single number.
+
+### loss_elem_
+
+```python
+J_elem = (y_hat - y) ** 2
+return np.array(J_elem, dtype=float)
+```
+
+Returns an array of shape `(m, 1)` — one squared error per training example. Useful for visualising which examples the model is getting most wrong.
+
+### loss_
+
+```python
+J_elem = loss_elem_(y, y_hat)
+return float(np.sum(J_elem) / (2 * len(y)))
+```
+
+Sums the squared errors and divides by `2m`. The `/2` is a calculus convenience — when you later differentiate the loss to compute the gradient, the 2 cancels with the exponent, simplifying the result. It does not change which model is better or worse, only the scale of the number.
+
+## Relation to MSE
+
+This loss function is `MSE / 2`:
+
+```
+J(θ) = MSE / 2 = 1/(2m) * Σ(ŷ⁽ⁱ⁾ - y⁽ⁱ⁾)²
+MSE          = 1/m   * Σ(ŷ⁽ⁱ⁾ - y⁽ⁱ⁾)²
+```
+
+Both rank models identically — halving every score does not change the ordering.
+
+## Shape Requirement
+
+Both functions expect 2D arrays of shape `(m, 1)`, not flat 1D arrays. If `y` is 1D, reshape it before calling:
+
+```python
+loss_(y.reshape(-1, 1), y_hat)
+```
