@@ -1,3 +1,6 @@
+## MOST IMOPORTANT
+- 🐙 — U+1F419
+
 **Greek letters
 
 - θ (theta) — U+03B8
@@ -65,7 +68,9 @@ There's no single "hat" codepoint for arbitrary letters — instead you combine 
 
 **Superscripts (for exponents)**
 
-- ² — U+00B2, ³ — U+00B3, ¹ — U+00B9
+- ² — U+00B2
+- ³ — U+00B3
+- ¹ — U+00B9
 - ⁰¹²³⁴⁵⁶⁷⁸⁹ — U+2070, U+00B9, U+00B2, U+00B3, U+2074–U+2079
 - ⁿ (superscript n) — U+207F
 - ⁱ (superscript i) — U+2071
