@@ -58,6 +58,7 @@ There's no single "hat" codepoint for arbitrary letters — instead you combine 
 - 𝐽 = U+1D43D
 - 𝑋 = U+1D44B
 - 𝑌 = U+1D44C
+- 𝘔 = U+1D440
 - 𝑁 = U+1D441 
 
 **Italic Greek** (for θ, α, β etc. in math mode)
