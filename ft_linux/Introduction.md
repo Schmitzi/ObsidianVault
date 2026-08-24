@@ -5,10 +5,3 @@ Be aware that you may encounter problems, thuis is by no means a perfect solutio
 # Steps Taken:
 
 [Creating the Build Environment](#creating-the-build-environment)
-- [Escaping the VM](#escaping-the-vm)
-- [Disk Partitioning](#disk-partitioning)
-- [Setting the LFS Environment](#setting-the-lfs-environment)
-- [Getting the Packages](#getting-the-packages)
-- [Chroot](#chroot)
-- [Set Up Your Environment](#set-up-your-environment)
-
