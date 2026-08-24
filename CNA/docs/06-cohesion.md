@@ -54,3 +54,10 @@ If an enemy combat unit moves adjacent to it, it immediately surrenders, regardl
 - Consume Stores and Water *(this specific line references the fuller Logistics Game's Stores/Water tracking — per 32.11, the abstract Land Game we're building first explicitly excludes Water/Stores, so this isn't something to implement yet)*
 
 The CL of the unit may drop below -26 if it performs a single action that would jump past this level such as an attack
+
+## Saturating sub for CPA
+
+Saturating_sub() is used in install a floor. It we have an operation like 5 - 8 on a uint64, the result would be 0 instead of wrapping around.
+
+We use saturating_sub() to find out if the incoming deduction is higher than the current CPA, and if the CPA is actually less than the deduction,  clamping it to zero instead of going negative which is what "overage" should do. A unit thats under its CPA has zero overage, not a negative one.
+

@@ -52,8 +52,7 @@ Whenever a unit exceeds its CPA within a given Operations Stage it earns Disorga
 
 DP's are used to decrease the Cohesion Level of a unit. Thus a unit with a Cohesion Level of -1 that earns three DP's now has a Cohesion Level of -4. DP's accumulate from Segment to Segment; they may be negated only by certain actions on the part of the unit (See [6.23](#623)). Furthermore, DP's are credited immediately — not at the end of an Operations Stage. 
 
-*Example*: the 1st RNF, with a CPA of ‘8' and a Cohesion Level of -2 has expended five CP's in a Movement Segment. It then assaults an Italian unit, expending the five CP's necessary to do so. The 1st RNF has thus exceeded its CPA by two, earning 2 DP's and reducing its Cohesion Level by that two to -4. The decrease in the
-Cohesion Level takes place before the Close Assault is resolved and the 1st RNF uses its new Cohesion Level of -4 in computing any changes to Morale.
+*Example*: the 1st RNF, with a CPA of 8 and a Cohesion Level of -2 has expended five CP's in a Movement Segment. It then assaults an Italian unit, expending the five CP's necessary to do so. The 1st RNF has thus exceeded its CPA by two, earning 2 DP's and reducing its Cohesion Level by that two to -4. The decrease in the Cohesion Level takes place before the Close Assault is resolved and the 1st RNF uses its new Cohesion Level of -4 in computing any changes to Morale.
 
 ### 6.23
 
