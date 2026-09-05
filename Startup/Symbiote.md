@@ -1,5 +1,9 @@
 In these notes, I will briefly talk about the how, what and why of the decisions made to create this server.
 
+The name Symbiote was given by my partner in crime @waterlillly. It symbolises the relationship between the user and the
+product as a relationship where neither tqkes over, but work together to have an experience.
+product as a relationship where neither tqkes over, but work together to have an experience. 
+
 I decided to build it in Rust because its just the best language right now. It has similar strength to Gods own language, the mighty C, but also has modern updates and usability. Using TypeScript is also an option but the more I read about `npm` and its problems with dependencies and malicious injection of code, I decided that a fully self contained server would be a better idea.
 
 This allows me manage the server wherever I am, not having to worry about dependencies not being up to date or incompatible.
